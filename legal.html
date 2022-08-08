@@ -29,7 +29,7 @@
 
 <h2>Contact</h2>
 <p>Telefon: +49 151 17636248<br/>
-    E-Mail: <a href="javascript:decryptMail('Y29udGFjdEBkZXZpY2V6LmRlCg==')">contact(at)devicez.de</a></p>
+    E-Mail: <a href="javascript:decryptMail('Y29udGFjdEBkZXZpY2V6LmRl')">contact(at)devicez.de</a></p>
 
 <h2>Disclaimer</h2>
 <b>Liability for content</b>
@@ -74,5 +74,11 @@
     </p>
 </footer>
 
+<script>
+    function decryptMail(encoded) {
+        const address = atob(encoded);
+        window.location.href = 'mailto:' + address;
+    }
+</script>
 </body>
 </html>
