@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /legal/
+Disallow: /legal.html
