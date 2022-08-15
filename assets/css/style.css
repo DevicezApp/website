@@ -19,8 +19,9 @@ body {
     margin-top: 1em;
     max-width: 45em;
     line-height: 1.5em;
-    color: #171717;
+    color: white;
     font-size: large;
+    background-color: #202124;
 }
 
 h1 {
@@ -71,6 +72,7 @@ td {
 }
 
 a:not([class]) {
+    color: white;
     text-decoration: none;
     background-image: linear-gradient(#eeebee 0%, #eeebee 100%);
     background-repeat: repeat-x;
